@@ -6,6 +6,8 @@ export default function FilterButtons({ setFilter }) {
       <button className="btn" onClick={() => setFilter('all')}>All</button>
       <button className="btn" onClick={() => setFilter('past')}>Past</button>
       <button className="btn" onClick={() => setFilter('upcoming')}>Upcoming</button>
+      <button className="btn" onClick={() => setPopupOpen(true)}>+ Add Event</button>
+
     </div>
   );
 }
