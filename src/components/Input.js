@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 /** The input content component */
-class input extends Component {
+class Input extends Component {
     constructor(props) {
         super(props);
 
@@ -30,4 +30,4 @@ class input extends Component {
     }
 }
 
-export default input;
+export default Input;

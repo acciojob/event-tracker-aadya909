@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import MyCalendar from 'react-big-calendar';
 import CustomToolbar from './toolbar';
 import Popup from 'react-popup';
-import Input from './input';
+import Input from './Input';
 import moment from 'moment';
 import { fetchEvents, createEvent, updateEvent, deleteEvent } from '../actions';
 
