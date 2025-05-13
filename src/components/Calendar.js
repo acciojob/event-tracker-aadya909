@@ -7,10 +7,13 @@ import Popup from 'react-popup';
 import Input from './Input';
 import moment from 'moment';
 import { fetchEvents, createEvent, updateEvent, deleteEvent } from '../actions';
+import { momentLocalizer } from 'react-big-calendar';
+
 
 
 // Setup the localizer by providing the moment (or globalize) Object to the correct localizer.
-const localizer = MyCalendar.momentLocalizer(moment); // or globalizeLocalizer
+const localizer = momentLocalizer(moment);
+
 
 class Calendar extends Component {
 
