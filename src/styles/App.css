@@ -1,1 +1,38 @@
 
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #d0d0ff;
+  border: none;
+  cursor: pointer;
+}
+
+.mm-popup__btn,
+.mm-popup__btn--info,
+.mm-popup__btn--danger {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.mm-popup__btn--info {
+  background-color: #4ea5d9;
+  color: white;
+}
+
+.mm-popup__btn--danger {
+  background-color: #d94e4e;
+  color: white;
+}
